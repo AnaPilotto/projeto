@@ -13,12 +13,12 @@ function toggleMode() {
   if (html.classList.contains("light")) {
     img.setAttribute(
       "alt",
-      "Uma foto do rosto de Ana Pilotto, com cabelo roxo, com uma maquiagem leve e sorrindo."
+      "A photo of Ana Pilotto's face, with purple hair, light makeup and smiling."
     )
   } else {
     img.setAttribute(
       "alt",
-      "Uma foto do rosto de Ana Pilotto, com cabelo rosa, com uma maquiagem leve e sorrindo."
+      "A photo of Ana Pilotto's face, with pink hair, light makeup and smiling."
     )
   }
 }
